@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,6 +8,7 @@ body {
     flex-shrink: 1;
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
+    zoom: 33%;
 }
 
 .header {
@@ -82,7 +84,7 @@ ul{
     justify-content: center;
     flex-direction: column;
     background-color: white;
-    padding: 100px 200px;
+    padding: 100px 1000px;
     color: black;
 
 }
@@ -100,18 +102,18 @@ ul{
     gap: 100px;
     flex-shrink: 1 ;
     flex-direction: row;
-    gap: 50px;
 }
 
 
 .placeholder{
-    max-width: 50%;
-    max-height: 100%;
-    padding: 150px;
+    height:350px;
+    width:600px;
+    padding: 50px 0px;
     outline-color: blue;
     outline-width: thin;
     outline-style: solid;
     border-radius: 10px;
+    text-wrap: wrap;
 }
 
 .combined {
